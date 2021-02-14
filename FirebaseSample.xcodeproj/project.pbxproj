@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		756E791525D904B700701680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756E791325D904B700701680 /* Main.storyboard */; };
 		756E791725D904B700701680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756E791625D904B700701680 /* Assets.xcassets */; };
 		756E791A25D904B700701680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756E791825D904B700701680 /* LaunchScreen.storyboard */; };
+		756E799F25D9288900701680 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 756E799E25D9288900701680 /* GoogleService-Info.plist */; };
+		756E79BD25D946EB00701680 /* FirestoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E79BC25D946EB00701680 /* FirestoreViewController.swift */; };
+		756E79C025D946F600701680 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E79BF25D946F600701680 /* AuthViewController.swift */; };
 		C57E9A04DEF5E7E12719A0EB /* Pods_FirebaseSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1453FBABD50C0B02AD28AD3C /* Pods_FirebaseSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		756E791625D904B700701680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756E791925D904B700701680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756E791B25D904B700701680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756E799E25D9288900701680 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		756E79BC25D946EB00701680 /* FirestoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreViewController.swift; sourceTree = "<group>"; };
+		756E79BF25D946F600701680 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		9E89973EB7D70DF7B360D07A /* Pods-FirebaseSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSample.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseSample/Pods-FirebaseSample.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE2AD6D1E7D6C0273EB819E /* Pods-FirebaseSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSample.release.xcconfig"; path = "Target Support Files/Pods-FirebaseSample/Pods-FirebaseSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +75,10 @@
 				756E791325D904B700701680 /* Main.storyboard */,
 				756E791625D904B700701680 /* Assets.xcassets */,
 				756E791825D904B700701680 /* LaunchScreen.storyboard */,
+				756E799E25D9288900701680 /* GoogleService-Info.plist */,
 				756E791B25D904B700701680 /* Info.plist */,
+				756E79BC25D946EB00701680 /* FirestoreViewController.swift */,
+				756E79BF25D946F600701680 /* AuthViewController.swift */,
 			);
 			path = FirebaseSample;
 			sourceTree = "<group>";
@@ -80,7 +89,6 @@
 				9E89973EB7D70DF7B360D07A /* Pods-FirebaseSample.debug.xcconfig */,
 				EAE2AD6D1E7D6C0273EB819E /* Pods-FirebaseSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756E791A25D904B700701680 /* LaunchScreen.storyboard in Resources */,
+				756E799F25D9288900701680 /* GoogleService-Info.plist in Resources */,
 				756E791725D904B700701680 /* Assets.xcassets in Resources */,
 				756E791525D904B700701680 /* Main.storyboard in Resources */,
 			);
@@ -208,6 +217,8 @@
 			files = (
 				756E791225D904B700701680 /* ViewController.swift in Sources */,
 				756E790E25D904B700701680 /* AppDelegate.swift in Sources */,
+				756E79C025D946F600701680 /* AuthViewController.swift in Sources */,
+				756E79BD25D946EB00701680 /* FirestoreViewController.swift in Sources */,
 				756E791025D904B700701680 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
